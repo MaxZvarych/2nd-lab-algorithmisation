@@ -5,7 +5,7 @@
 You need to buy a hamster in the store.
 Each hamster has two characteristics - hunger and greed.
 Hunger - how much food a hamster eats per day.
-Greed - how much food he eats for each of his neighbors.
+Greediness - how much food he eats for each of his neighbors.
 You have a certain amount of food per day.
 There are a certain amount hamsters in the store.
 You need to buy as many hamsters as possible.
