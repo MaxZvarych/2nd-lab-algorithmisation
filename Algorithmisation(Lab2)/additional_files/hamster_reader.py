@@ -15,5 +15,6 @@ def read_info_from_file(filename):
         else:
             total_hamsters_number = int(row)
             i += 1
+    hamsters.close()
     return list_of_hamsters,total_food_amount,total_hamsters_number
 

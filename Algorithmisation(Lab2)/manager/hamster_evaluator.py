@@ -10,7 +10,8 @@ def Partition(list_of_hamsters, min_idx, max_idx, number_of_hamsters_to_check):
             list_of_hamsters[pivot], list_of_hamsters[current_element] = list_of_hamsters[current_element], \
                                                                          list_of_hamsters[pivot]
             pivot += 1
-    list_of_hamsters[pivot], list_of_hamsters[max_idx] = list_of_hamsters[max_idx], list_of_hamsters[pivot]
+    if(pivot<=max_idx):
+        list_of_hamsters[pivot], list_of_hamsters[max_idx] = list_of_hamsters[max_idx], list_of_hamsters[pivot]
     return pivot
 
 
